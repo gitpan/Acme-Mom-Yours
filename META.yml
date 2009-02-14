@@ -1,0 +1,41 @@
+---
+abstract: 'Your mom is so fat she takes 2 months to compile'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+distribution_type: module
+generated_by: 'Module::Install version 0.79'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Acme::Mom::Yours
+name: Acme-Mom-Yours
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Angerwhale: 0
+  App::CamelPKI: 0
+  App::HistHub: 0
+  Buscador: 0
+  CommitBit: 0
+  Devel::ebug::HTTP: 0
+  Foorum: 0
+  Handle: 0
+  Jifty: 0
+  MojoMojo: 0
+  Padre: 0
+  Parley: 0
+  Pod::Browser: 0
+  Reaction: 0
+  Task::CatInABox: 0
+  Task::Catalyst::Tutorial: 0
+  Task::Email::PEP::All: 0
+  Task::SOSA: 0
+  Test::Apocalypse: 0
+  Titanium: 0
+  perl: 5.005
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
