@@ -2,8 +2,12 @@
 abstract: 'Your mom is so fat she takes 2 months to compile'
 author:
   - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.79'
+generated_by: 'Module::Install version 0.85'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,12 +23,16 @@ requires:
   App::CamelPKI: 0
   App::HistHub: 0
   Buscador: 0
+  Catalyst::Authentication::Credential::OpenID: 0
+  Catalyst::Example::InstantCRUD: 0
   CommitBit: 0
   Devel::ebug::HTTP: 0
   Foorum: 0
-  Handle: 0
+  Handel: 0
   Jifty: 0
+  Jifty::Plugin::ModelMap: 0
   MojoMojo: 0
+  Osgood::Server: 0
   Padre: 0
   Parley: 0
   Pod::Browser: 0
@@ -37,5 +45,7 @@ requires:
   Titanium: 0
   perl: 5.005
 resources:
+  ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/Acme-Mom-Yours
   license: http://dev.perl.org/licenses/
-version: 0.01
+  repository: http://svn.ali.as/cpan/trunk/Acme-Mom-Yours
+version: 0.02
